@@ -1,0 +1,225 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 6,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-03-18T20:32:43.095Z",
+    "end": "2021-03-18T20:32:52.368Z",
+    "duration": 9273,
+    "testsRegistered": 7,
+    "passPercent": 85.71428571428571,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b6776f9f-5781-48ff-830b-3c037ed8e4c2",
+      "title": "",
+      "fullFile": "cypress/integration/cucumber-test/calculator.feature",
+      "file": "cypress/integration/cucumber-test/calculator.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+          "title": "Calculator",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Calculaton addition",
+              "fullTitle": "Calculator Calculaton addition",
+              "timedOut": null,
+              "duration": 931,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "58d7a3cd-df46-49e4-95ca-1815f53f12a5",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Calculaton subtraction",
+              "fullTitle": "Calculator Calculaton subtraction",
+              "timedOut": null,
+              "duration": 596,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e583e982-4ebc-4685-8e5c-c9505fba7dc4",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Calculaton multiplication",
+              "fullTitle": "Calculator Calculaton multiplication",
+              "timedOut": null,
+              "duration": 598,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9c969849-e318-46fb-b405-2774314eabf8",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Calculaton division",
+              "fullTitle": "Calculator Calculaton division",
+              "timedOut": null,
+              "duration": 628,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "abc1f16d-4e99-4bc5-987d-c2141b7c2def",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Calculaton dividing by zero",
+              "fullTitle": "Calculator Calculaton dividing by zero",
+              "timedOut": null,
+              "duration": 604,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "6da7db71-748c-4ace-9ea6-c60b731708fc",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Calculaton with negative numbers",
+              "fullTitle": "Calculator Calculaton with negative numbers",
+              "timedOut": null,
+              "duration": 619,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "db399e93-458f-474b-a4be-4bc550484811",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Calculaton with decimal points",
+              "fullTitle": "Calculator Calculaton with decimal points",
+              "timedOut": null,
+              "duration": 5221,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"videos/cucumber-test/calculator.feature.mp4\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '1' within the element: <span#current-result> but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '1' within the element: <span#current-result> but never did.\n    at Context.eval (http://localhost:50866/__cypress/tests?p=cypress/integration/cucumber-test/calculator.feature:110:36)\n    at Context.resolveAndRunStepDefinition (http://localhost:50866/__cypress/tests?p=cypress/integration/cucumber-test/calculator.feature:10497:9)\n    at Context.eval (http://localhost:50866/__cypress/tests?p=cypress/integration/cucumber-test/calculator.feature:9838:35)",
+                "diff": null
+              },
+              "uuid": "8cf42d81-5ba0-4ed6-abc9-01d6049eaa2d",
+              "parentUUID": "e4d5fdef-eca1-4225-862d-63d239f5d569",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "58d7a3cd-df46-49e4-95ca-1815f53f12a5",
+            "e583e982-4ebc-4685-8e5c-c9505fba7dc4",
+            "9c969849-e318-46fb-b405-2774314eabf8",
+            "abc1f16d-4e99-4bc5-987d-c2141b7c2def",
+            "6da7db71-748c-4ace-9ea6-c60b731708fc",
+            "db399e93-458f-474b-a4be-4bc550484811"
+          ],
+          "failures": [
+            "8cf42d81-5ba0-4ed6-abc9-01d6049eaa2d"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 9197,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
