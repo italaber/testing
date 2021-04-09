@@ -1,7 +1,7 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 
 Given('I am at the unconventional calculator', () => {
-    cy.visit('index.html')
+    cy.visit('assets/index.html')
 })
 
 When('I add 1 and 7 together', () => {
