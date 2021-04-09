@@ -1,3 +1,3 @@
-# testing
+# Testing
 
-Final test
+Latest test results [here](./public/index.html)
