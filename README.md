@@ -1,3 +1,1 @@
-# Testing
-
-Latest test results [here](./public/index.html)
+Latest test results [here](./cypress/reports/mochareports/index.html)

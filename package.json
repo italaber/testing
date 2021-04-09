@@ -10,7 +10,7 @@
     "cypress:run": "cypress run --headless --browser chrome",
     "cypress:open": "cypress open",
     "report:merge": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/index.json",
-    "report:generate": "marge cypress/reports/index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html",
+    "report:generate": "marge cypress/reports/index.json --reportDir cypress/reports/mochareports --assetsDir cypress/reports/mochareports/assets --reportPageTitle index.html",
     "posttest": "npm run report:merge && npm run report:generate",
     "test": "npm run scripts || npm run posttest"
   },
