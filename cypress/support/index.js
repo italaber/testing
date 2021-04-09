@@ -19,6 +19,7 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 import './commands'
+import 'cypress-mochawesome-reporter/register';
 import addContext from 'mochawesome/addContext'
 
 Cypress.on("test:after:run", (test, runnable) => {

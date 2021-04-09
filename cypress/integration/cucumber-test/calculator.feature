@@ -36,8 +36,8 @@ Feature: Calculator
         When I add -5 to -5
         Then the result is -10
 
-    Scenario: Calculaton with decimal points
-
-        Given I am at the unconventional calculator
-        When I multiply 0.5 by 2
-        Then the result is 1
+#    Scenario: Calculaton with decimal points
+#
+#        Given I am at the unconventional calculator
+#        When I multiply 0.5 by 2
+#        Then the result is 1

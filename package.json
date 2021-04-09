@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:chrome": "cypress run --browser chrome",
+    "clean:reports": "rm -R -f cypress/reports && mkdir cypress/reports && mkdir cypress/reports/mochareports",
+    "pretest": "npm run clean:reports",
+    "scripts": "cypress run --headless --browser chrome",
     "cypress:run": "cypress run --headless --browser chrome",
     "cypress:open": "cypress open",
-    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
-    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+    "report:merge": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/index.json",
+    "report:generate": "marge cypress/reports/index.json --reportDir docs --assetsDir docs/assets --reportPageTitle index.html",
+    "posttest": "npm run report:merge && npm run report:generate",
+    "test": "npm run scripts || npm run posttest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.8.0",
     "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-mochawesome-reporter": "^2.0.1",
     "cypress-multi-reporters": "^1.4.0",
     "mocha": "^8.3.2",
     "mochawesome": "^6.2.2",
