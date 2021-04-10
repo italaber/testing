@@ -4,7 +4,7 @@ Feature: Calculator
 
         Given I am at the unconventional calculator
         When I add 1 and 7 together
-        Then the result is 9
+        Then the result is 8
 
     Scenario: Calculaton subtraction
 
