@@ -15,6 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Cypress run
+      - name: Cypress install
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+      
+      - name: Cypress test
         run: npm run test
         
