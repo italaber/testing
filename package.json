@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/skip-test": "^2.6.0",
     "cypress": "^6.8.0",
     "cypress-cucumber-preprocessor": "^4.0.1",
     "cypress-mochawesome-reporter": "^2.0.1",
